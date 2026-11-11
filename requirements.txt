@@ -9,4 +9,4 @@ mysql-connector-python
 bcrypt
 anthropic  # optional, for LLM fallback in Ask
 xlrd
-pip<26.0
+python=3.14
