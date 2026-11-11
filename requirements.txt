@@ -1,0 +1,11 @@
+streamlit>=1.36
+pandas>=2.0
+numpy
+openpyxl
+plotly
+reportlab
+matplotlib
+mysql-connector-python
+bcrypt
+anthropic  # optional, for LLM fallback in Ask
+xlrd
