@@ -9,11 +9,11 @@ PLANS = {
 
 def _conn():
     return mysql.connector.connect(
-        host=os.getenv("MYSQL_HOST", "localhost"),
-        port=int(os.getenv("MYSQL_PORT", 3306)),
-        user=os.getenv("MYSQL_USER", "root"),
-        password=os.getenv("MYSQL_PASSWORD", ""),
-        database=os.getenv("MYSQL_DB", "sales_analyzer"),
+        host=os.getenv("MYSQL_HOST", "MYSQL_HOST"),
+        port=int(os.getenv("MYSQL_PORT", "MYSQL_PORT")),
+        user=os.getenv("MYSQL_USER", "MYSQL_USER"),
+        password=os.getenv("MYSQL_PASSWORD", "MYSQL_PASSWORD"),
+        database=os.getenv("MYSQL_DB", "MYSQL_DB"),
     )
 
 
