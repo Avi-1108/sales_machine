@@ -1,8 +1,8 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import sales_machine.analysis as an
-import sales_machine.db as db
+import analysis as an
+import db
 
 st.set_page_config(page_title="Sales Machine", page_icon="📊", layout="wide")
 

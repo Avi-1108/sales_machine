@@ -3,7 +3,7 @@ pandas>=2.0
 numpy
 openpyxl
 plotly
-reportlab
+reportlab<4.0
 matplotlib
 mysql-connector-python
 bcrypt
