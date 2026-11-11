@@ -3,10 +3,9 @@ pandas>=2.0
 numpy
 openpyxl
 plotly
-reportlab<4.0
+reportlab
 matplotlib
 mysql-connector-python
 bcrypt
 anthropic  # optional, for LLM fallback in Ask
 xlrd
-python=3.14
